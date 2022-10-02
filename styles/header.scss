@@ -81,3 +81,21 @@ header {
     }
   }
 }
+
+@media (max-width: 850px) {
+  header {
+    .left {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .right {
+      height: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+}

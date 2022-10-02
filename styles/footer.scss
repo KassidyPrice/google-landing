@@ -11,24 +11,33 @@ footer {
     justify-content: space-around;
     background-color: #171717;
 
-    .advertising a {
+    .advertising {
       background-color: #171717;
+      a {
+        background-color: #171717;
+      }
     }
 
     .advertising:hover {
       text-decoration: underline;
     }
 
-    .business a {
+    .business {
       background-color: #171717;
+      a {
+        background-color: #171717;
+      }
     }
 
     .business:hover {
       text-decoration: underline;
     }
 
-    .how a {
+    .how {
       background-color: #171717;
+      a {
+        background-color: #171717;
+      }
     }
 
     .how:hover {
@@ -57,28 +66,52 @@ footer {
     justify-content: space-around;
     background-color: #171717;
 
-    .privacy a {
+    .privacy {
       background-color: #171717;
+      a {
+        background-color: #171717;
+      }
     }
 
     .privacy:hover {
       text-decoration: underline;
     }
 
-    .terms a {
+    .terms {
       background-color: #171717;
+      a {
+        background-color: #171717;
+      }
     }
 
     .terms:hover {
       text-decoration: underline;
     }
 
-    .settings a {
+    .settings {
       background-color: #171717;
+      a {
+        background-color: #171717;
+      }
     }
 
     .settings:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  footer {
+    .left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 }

@@ -11,17 +11,26 @@ footer .left {
   justify-content: space-around;
   background-color: #171717;
 }
+footer .left .advertising {
+  background-color: #171717;
+}
 footer .left .advertising a {
   background-color: #171717;
 }
 footer .left .advertising:hover {
   text-decoration: underline;
 }
+footer .left .business {
+  background-color: #171717;
+}
 footer .left .business a {
   background-color: #171717;
 }
 footer .left .business:hover {
   text-decoration: underline;
+}
+footer .left .how {
+  background-color: #171717;
 }
 footer .left .how a {
   background-color: #171717;
@@ -47,11 +56,17 @@ footer .right {
   justify-content: space-around;
   background-color: #171717;
 }
+footer .right .privacy {
+  background-color: #171717;
+}
 footer .right .privacy a {
   background-color: #171717;
 }
 footer .right .privacy:hover {
   text-decoration: underline;
+}
+footer .right .terms {
+  background-color: #171717;
 }
 footer .right .terms a {
   background-color: #171717;
@@ -59,9 +74,25 @@ footer .right .terms a {
 footer .right .terms:hover {
   text-decoration: underline;
 }
+footer .right .settings {
+  background-color: #171717;
+}
 footer .right .settings a {
   background-color: #171717;
 }
 footer .right .settings:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 850px) {
+  footer .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }/*# sourceMappingURL=footer.css.map */

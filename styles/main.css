@@ -69,6 +69,21 @@ header .right .avatar a {
   color: #ffffff;
 }
 
+@media (max-width: 850px) {
+  header .left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  header .right {
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
 main {
   display: flex;
   flex-direction: column;
@@ -170,17 +185,26 @@ footer .left {
   justify-content: space-around;
   background-color: #171717;
 }
+footer .left .advertising {
+  background-color: #171717;
+}
 footer .left .advertising a {
   background-color: #171717;
 }
 footer .left .advertising:hover {
   text-decoration: underline;
 }
+footer .left .business {
+  background-color: #171717;
+}
 footer .left .business a {
   background-color: #171717;
 }
 footer .left .business:hover {
   text-decoration: underline;
+}
+footer .left .how {
+  background-color: #171717;
 }
 footer .left .how a {
   background-color: #171717;
@@ -206,17 +230,26 @@ footer .right {
   justify-content: space-around;
   background-color: #171717;
 }
+footer .right .privacy {
+  background-color: #171717;
+}
 footer .right .privacy a {
   background-color: #171717;
 }
 footer .right .privacy:hover {
   text-decoration: underline;
 }
+footer .right .terms {
+  background-color: #171717;
+}
 footer .right .terms a {
   background-color: #171717;
 }
 footer .right .terms:hover {
   text-decoration: underline;
+}
+footer .right .settings {
+  background-color: #171717;
 }
 footer .right .settings a {
   background-color: #171717;
@@ -225,6 +258,18 @@ footer .right .settings:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 850px) {
+  footer .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 * {
   margin: 0;
   background-color: rgb(32, 33, 36);
@@ -239,4 +284,11 @@ body {
   width: 100vw;
   display: grid;
   grid-template-rows: 15% 77% 8%;
+}
+
+@media (max-width: 850px) {
+  body {
+    display: grid;
+    grid-template-rows: 30% 55% 15%;
+  }
 }/*# sourceMappingURL=main.css.map */

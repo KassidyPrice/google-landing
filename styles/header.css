@@ -67,4 +67,20 @@ header .right .avatar a {
   background-color: darkmagenta;
   font-size: 1.5em;
   color: #ffffff;
+}
+
+@media (max-width: 850px) {
+  header .left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  header .right {
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,84 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  background-color: #171717;
+
+  .left {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #171717;
+
+    .advertising a {
+      background-color: #171717;
+    }
+
+    .advertising:hover {
+      text-decoration: underline;
+    }
+
+    .business a {
+      background-color: #171717;
+    }
+
+    .business:hover {
+      text-decoration: underline;
+    }
+
+    .how a {
+      background-color: #171717;
+    }
+
+    .how:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .mid {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #171717;
+  }
+
+  .mid a {
+    background-color: #171717;
+  }
+
+  .mid a:hover {
+    text-decoration: underline;
+  }
+
+  .right {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #171717;
+
+    .privacy a {
+      background-color: #171717;
+    }
+
+    .privacy:hover {
+      text-decoration: underline;
+    }
+
+    .terms a {
+      background-color: #171717;
+    }
+
+    .terms:hover {
+      text-decoration: underline;
+    }
+
+    .settings a {
+      background-color: #171717;
+    }
+
+    .settings:hover {
+      text-decoration: underline;
+    }
+  }
+}

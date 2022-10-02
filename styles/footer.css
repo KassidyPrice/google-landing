@@ -1,0 +1,67 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  background-color: #171717;
+}
+footer .left {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #171717;
+}
+footer .left .advertising a {
+  background-color: #171717;
+}
+footer .left .advertising:hover {
+  text-decoration: underline;
+}
+footer .left .business a {
+  background-color: #171717;
+}
+footer .left .business:hover {
+  text-decoration: underline;
+}
+footer .left .how a {
+  background-color: #171717;
+}
+footer .left .how:hover {
+  text-decoration: underline;
+}
+footer .mid {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #171717;
+}
+footer .mid a {
+  background-color: #171717;
+}
+footer .mid a:hover {
+  text-decoration: underline;
+}
+footer .right {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #171717;
+}
+footer .right .privacy a {
+  background-color: #171717;
+}
+footer .right .privacy:hover {
+  text-decoration: underline;
+}
+footer .right .terms a {
+  background-color: #171717;
+}
+footer .right .terms:hover {
+  text-decoration: underline;
+}
+footer .right .settings a {
+  background-color: #171717;
+}
+footer .right .settings:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=footer.css.map */

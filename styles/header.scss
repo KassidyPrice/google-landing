@@ -1,0 +1,83 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+
+  .left {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+
+    .about:hover {
+      text-decoration: underline;
+    }
+
+    .store:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .right {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .gmail a {
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .gmail a:hover {
+      text-decoration: underline;
+    }
+
+    .images a {
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .images a:hover {
+      text-decoration: underline;
+    }
+
+    .grid {
+      width: 3em;
+      height: 3em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .grid:hover {
+      background-color: #393d41;
+      border-radius: 50%;
+    }
+
+    .grid a i {
+      font-size: 1.5em;
+      color: #ffffff;
+    }
+
+    .avatar {
+      width: 3em;
+      height: 3em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: darkmagenta;
+      border-radius: 50%;
+    }
+
+    .avatar a {
+      background-color: darkmagenta;
+      font-size: 1.5em;
+      color: #ffffff;
+    }
+  }
+}
